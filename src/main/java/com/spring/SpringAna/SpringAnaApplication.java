@@ -1,13 +1,13 @@
-package com.spring.SpringAna;
+package com.spring.springana;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringAnaApplication {
+public class springanaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringAnaApplication.class, args);
+		SpringApplication.run(springanaApplication.class, args);
 	}
 
 }
