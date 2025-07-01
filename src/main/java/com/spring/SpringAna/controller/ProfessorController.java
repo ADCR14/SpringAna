@@ -18,6 +18,10 @@ public class ProfessorController {
         return "<h1>Ana</h1>";
     }
 
+@GetMapping( value = "/insert")    
+public static String insert() {
+    return "<h1>Tentando salvar o professor dos alunos</h1>";
+}
 
 
 }
