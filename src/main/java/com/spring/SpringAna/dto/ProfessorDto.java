@@ -1,5 +1,7 @@
 package com.spring.springana.dto;
 
+import com.spring.springana.modelo.Professor;
+
 public class ProfessorDto {
 
     private String nome;
@@ -28,6 +30,10 @@ public class ProfessorDto {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+     public Professor novoProfessor() {
+        return new Professor(this.nome, this.cpf);
     }
 
     
